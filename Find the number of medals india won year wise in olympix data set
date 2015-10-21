@@ -60,7 +60,7 @@ Context context)
        Configuration conf = new Configuration();
 
            @SuppressWarnings("deprecation")
-                Job job = new Job(conf, "goldmedalcount");
+                Job job = new Job(conf, "indiamedals");
            job.setJarByClass(India_medals.class);
 
            job.setMapOutputKeyClass(Text.class);
