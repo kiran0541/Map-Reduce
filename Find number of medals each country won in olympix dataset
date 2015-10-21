@@ -39,7 +39,6 @@ throws IOException, InterruptedException {
 
        }
     }
-
     public static class Reduce extends Reducer<Text, IntWritable,
 Text, IntWritable> {
 
