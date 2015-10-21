@@ -1,4 +1,4 @@
-//Find number of gold medals each country won
+//Find number of medals each country won
 
 import java.io.IOException;
 
