@@ -53,8 +53,8 @@ state.toString().equalsIgnoreCase("tx")){
                 Job job = new Job(conf, "wordcount");
            job.setJarByClass(Pulomonary_states.class);
 
-           job.setMapOutputKeyClass(Text.class);
-           job.setMapOutputValueClass(Text.class);
+           job.setMapOutputKeyClass(Text.class);  //in case output for mapper is different from..
+           job.setMapOutputValueClass(Text.class); // ..the input of reducer 
        job.setOutputKeyClass(Text.class);
        job.setOutputValueClass(IntWritable.class);
 
